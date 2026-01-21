@@ -229,44 +229,6 @@ expo start
   - Body: `{ "recipe_id" }`
 - `DELETE /api/favorites/{recipe_id}` - Remove from favorites (requires auth)
 
-## 📊 Sample Data
-
-The app comes with 15 pre-loaded recipes with real food photography:
-
-### Vegetarian (4 recipes)
-- Vegetable Biryani
-- Paneer Tikka
-- Dal Tadka
-- Aloo Paratha
-
-### Non-Vegetarian (3 recipes)
-- Grilled Chicken
-- Butter Chicken
-- Fish Curry
-
-### Desserts (4 recipes)
-- Chocolate Cake
-- Ice Cream Sundae
-- Fruit Salad
-- Tiramisu
-
-### Fast Food (4 recipes)
-- French Fries
-- Veggie Burger
-- Pizza Margherita
-- Chicken Wings
-
-All images are high-quality food photography from Unsplash.
-
-## 🧪 Testing
-
-### Backend Testing
-All backend APIs have been tested and verified:
-- ✅ 21/21 tests passed (100% success rate)
-- Authentication endpoints working
-- Recipe CRUD operations verified
-- Favorites system functional
-- Search and filtering tested
 
 ### Manual Testing
 Test the following flows:
@@ -279,9 +241,9 @@ Test the following flows:
 7. Profile menu navigation
 8. Logout functionality
 
-## 🎓 College Project Notes
 
-This project demonstrates:
+
+## This project demonstrates:
 - **Full-stack development** (Frontend + Backend + Database)
 - **Mobile app development** with React Native/Expo
 - **RESTful API design** with FastAPI
@@ -292,12 +254,6 @@ This project demonstrates:
 - **Responsive UI design** for mobile devices
 - **Professional code organization** and structure
 
-### Code Simplicity
-- Well-commented code for easy understanding
-- Clean architecture with separation of concerns
-- Standard libraries used (no complex frameworks)
-- File-based routing for intuitive navigation
-- Clear naming conventions throughout
 
 ## 🔧 Configuration
 
@@ -337,33 +293,6 @@ This project demonstrates:
 7. Error handling with user-friendly messages
 8. Category filtering and search functionality
 
-### Best Practices Followed
-- TypeScript for type safety
-- Component-based architecture
-- Async/await for cleaner async code
-- Proper error handling and loading states
-- RESTful API design
-- Secure password hashing
-- JWT token validation
-- Mobile-first responsive design
-
-## 🐛 Troubleshooting
-
-### Backend Issues
-- Ensure MongoDB is running on port 27017
-- Check Python dependencies are installed
-- Verify port 8001 is available
-
-### Frontend Issues
-- Clear Metro cache: `expo start -c`
-- Reinstall dependencies: `rm -rf node_modules && yarn install`
-- Ensure Expo Go app is updated
-- Check internet connection for Unsplash images
-
-### Image Upload Not Working
-- Grant camera permissions when prompted
-- Grant photo library permissions when prompted
-- Check app.json has correct permissions configured
 
 ## 📞 Support
 
@@ -371,17 +300,8 @@ For issues or questions:
 - **Email**: naitikjain921@gmail.com
 - **Help & Support**: Available in app profile menu
 
-## 📄 License
-
-This project is created for educational purposes (college project).
-
-## 👨‍💻 Author
-
-Developed as a college project to demonstrate full-stack mobile app development skills.
 
 ---
 
 **Version**: 1.0.0  
 **Last Updated**: January 2025
-
-**Technologies**: Expo • React Native • FastAPI • MongoDB • TypeScript • Python
